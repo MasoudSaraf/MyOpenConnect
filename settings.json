@@ -1,7 +1,7 @@
 {
   "version_code":1200,
-  "download_link":"github......",
-  "server_names":["",""],
-  "must_update":true,
+  "download_link":"https://github.com",
+  "server_names":["soft98.ir","uptvs.com","download.ir","iranserver.com","dlroozane.net","music-fa.com","ubuntu.com","WordPress.org","telewebion.com","uploadboy.com","upmusics.com","soft98","varzesh3.com","quran","gitlab","github.com","divar.ir","divar","sheypoor.ir","sheypoor"],
+  "force_update":true,
   "max_wait":600000
 }

@@ -19,7 +19,7 @@
     },
     {
       "name":"سرور ایرانسل",
-      "address":"s.vipSafeNet.xyz:4443",
+      "address":"fr1.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",
       "enable_sni":true,

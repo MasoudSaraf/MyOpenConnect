@@ -9,7 +9,7 @@
   ],
   "servers": [
     {
-      "name":"سرور همراه اول و نت خانگی",
+      "name":"سرورهای مناسب همراه اول و نت خانگی",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
@@ -18,7 +18,7 @@
       "active":true
     },
     {
-      "name":"سرور ایرانسل",
+      "name":"سرور‌های مناسب ایرانسل",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",

@@ -17,7 +17,7 @@
       "enable_sni":true,
       "server_names":["khamenei.ir"],
       "active":true,
-      "debug":true
+      "debug":false
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",

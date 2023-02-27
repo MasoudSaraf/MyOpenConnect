@@ -26,7 +26,7 @@
       "enable_http_proxy":true,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",
       "enable_sni":true,
-      "server_names":["WordPress.org"],
+      "server_names":["music-fa.com"],
       "active":true,
       "debug":false
     }]

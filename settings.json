@@ -9,21 +9,25 @@
   ],
   "servers": [
     {
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2821",
       "name":"سرورهای مناسب همراه اول و نت خانگی",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["khamenei.ir"],
-      "active":true
+      "active":true,
+      "debug":false
     },
     {
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",
       "name":"سرور‌های مناسب ایرانسل",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",
       "enable_sni":true,
       "server_names":["soft98.ir","uptvs.com","download.ir","iranserver.com","dlroozane.net","music-fa.com","ubuntu.com","WordPress.org","telewebion.com","uploadboy.com","upmusics.com","varzesh3.com","divar.ir"],
-      "active":true
+      "active":true,
+      "debug":false
     }]
 }

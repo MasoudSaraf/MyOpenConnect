@@ -24,7 +24,7 @@
       "name":"سرور‌های مناسب ایرانسل",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
-      "http_proxy":"mtnp.vipSafeNet.xyz:80",
+      "http_proxy":"167.235.194.11:80",
       "enable_sni":true,
       "server_names":["soft98.ir","uptvs.com","download.ir","iranserver.com","dlroozane.net","music-fa.com","ubuntu.com","WordPress.org","telewebion.com","uploadboy.com","upmusics.com","varzesh3.com","divar.ir"],
       "active":true,

@@ -35,7 +35,7 @@
       "name":"سرور‌های دیباگ",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
-      "http_proxy":"mtnp.vipSafeNet.xyz:80",
+      "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["music-fa.com"],
       "active":true,

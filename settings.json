@@ -44,7 +44,7 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2824",
       "name":"سرور‌های دیباگ 2",
-      "address":"s.vipSafeNet.xyz:4443",
+      "address":"test.SafeNT.xyz",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,

@@ -10,7 +10,7 @@
   "servers": [
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2821",
-      "name":"سرورهای مناسب همراه اول و نت خانگی",
+      "name":"سرورهای مناسب همراه اول",
       "address":"s.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
@@ -43,13 +43,13 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2824",
-      "name":"سرور‌های دیباگ 2",
-      "address":"test.SafeNT.xyz",
+      "name":"سرورهای مناسب نت خانگی",
+      "address":"wifi.SafeNT.xyz",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["music-fa.com","soft98.ir","khamenei.ir"],
       "active":true,
-      "debug":true
+      "debug":false
     }]
 }

@@ -48,7 +48,7 @@
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["music-fa.com","soft98.ir","khamenei.ir"],
+      "server_names":["music-fa.com","soft98.ir","khamenei.ir","uptvs.com"],
       "active":true,
       "debug":false
     }]

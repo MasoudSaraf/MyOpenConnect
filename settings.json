@@ -35,9 +35,9 @@
       "name":"سرور‌های دیباگ",
       "address":"fr1.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
-      "http_proxy":"213.217.31.70:80",
+      "http_proxy":"167.235.194.11:80",
       "enable_sni":true,
-      "server_names":["music-fa.com","uptvs.com"],
+      "server_names":["music-fa.com","khamenei.ir"],
       "active":true,
       "debug":true
     },

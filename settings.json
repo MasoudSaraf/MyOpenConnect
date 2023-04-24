@@ -22,7 +22,7 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",
       "name":"سرور‌های مناسب ایرانسل",
-      "address":"fr4.vipSafeNet.xyz:4443",
+      "address":"fr3.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",
       "enable_sni":true,

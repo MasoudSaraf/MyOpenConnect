@@ -33,8 +33,8 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
       "name":"سرور‌های دیباگ",
-      "address":"fr1.vipSafeNet.xyz:4443",
-      "enable_http_proxy":true,
+      "address":"test.vipSafeNet.xyz",
+      "enable_http_proxy":false,
       "http_proxy":"65.109.232.126:80",
       "enable_sni":true,
       "server_names":["music-fa.com"],

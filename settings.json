@@ -10,7 +10,7 @@
   "servers": [
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2821",
-      "name":"سرورهای مناسب همراه اول",
+      "name":"سرورهای همراه اول",
       "address":"fr1.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
@@ -21,7 +21,7 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",
-      "name":"سرور‌های مناسب ایرانسل",
+      "name":"سرور‌های ایرانسل",
       "address":"fr3.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",
@@ -43,7 +43,7 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2824",
-      "name":"سرورهای مناسب نت خانگی",
+      "name":"سرورهای نت خانگی",
       "address":"wifi.SafeNT.xyz",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
@@ -54,7 +54,7 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
-      "name":"سرورهای مناسب نت خانگی 2",
+      "name":"سرورهای نت خانگی 2",
       "address":"fr1.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",

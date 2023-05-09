@@ -37,7 +37,7 @@
       "enable_http_proxy":false,
       "http_proxy":"65.109.232.126:80",
       "enable_sni":true,
-      "server_names":["khamenei.ir"],
+      "server_names":["xp0.ir"],
       "active":true,
       "debug":true
     },

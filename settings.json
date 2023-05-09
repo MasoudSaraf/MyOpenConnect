@@ -3,7 +3,7 @@
   "download_link":"https://drive.google.com/uc?id=1dq5dUHH5klNt0PBFAYE6lRCjDjuFjvCQ&export=download&confirm=t&uuid=fc7d71a5-42bc-4951-be04-0fde0480879e&at=ALgDtswf4wzRQLEH4gi-nBykcP1_:1678609789304",
   "force_update":true,
   "max_wait":1800000,
-  "message":"مشکلی روی سرور ایرانسل و نت خانگی با پیگیری انجام شده رفع شد.",
+  "message":"",
   "user_agents":[
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36","Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1","Mozilla/5.0 (Linux; Android 13; SM-N960U) AppleWebKit/501.36 (KHTML, like Gecko) Chrome/110.0.5481.153 Mobile Safari/501.36","Mozilla/5.0 (Linux; Android 13; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.81.153 Mobile Safari/537.36","Mozilla/5.0 (iPod; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/110.0.5481.114 Mobile/15E148 Safari/604.1","Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.153 Mobile Safari/537.36","Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/609.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1","Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.5479.153 Mobile Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 13.2; rv:110.0) Gecko/20100101 Firefox/110.0","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56","Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/615.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/614.1","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.22.0 Safari/537.36","Mozilla/5.0 (Android 13; Mobile; LG-M255; rv:110.0) Gecko/110.0 Firefox/110.0","Mozilla/5.0 (Windows Mobile 10; Android 10.0; Microsoft; Lumia 950XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edge/40.15254.603","Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:110.0) Gecko/20100101 Firefox/110.0","Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/110.0 Mobile/15E148 Safari/605.1.15","Mozilla/5.0 (Android 10;) Gecko/110.0 Firefox/106.4","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/517.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/517.36","Mozilla/5.0 (Android 13; Mobile; LG-M255) Gecko/110.0 Firefox/110.0","Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/517.36 (KHTML, like Gecko) Chrome/105.76.1.0 Safari/517.36"
   ],
@@ -15,7 +15,7 @@
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["khamenei.ir"],
+      "server_names":["music-fa.com"],
       "active":true,
       "debug":false
     },

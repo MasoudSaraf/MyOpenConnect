@@ -13,9 +13,9 @@
       "name":"سرورهای همراه اول",
       "address":"fr1.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
-      "http_proxy":"mcip.SafeNT.xyz:80",
+      "http_proxy":"5.78.104.226:80",
       "enable_sni":true,
-      "server_names":["music-fa.com"],
+      "server_names":["khamenei.ir","snapp.ir"],
       "active":true,
       "debug":false
     },

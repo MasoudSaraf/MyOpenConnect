@@ -15,7 +15,7 @@
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["snapp.ir"],
+      "server_names":["khamenei.ir"],
       "active":true,
       "debug":false
     },

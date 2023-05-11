@@ -35,9 +35,9 @@
       "name":"سرور‌های دیباگ",
       "address":"fr1.vipSafeNet.xyz:4443",
       "enable_http_proxy":true,
-      "http_proxy":"arzdigital.com:2082",
+      "http_proxy":"mcip.safent.xyz:2939",
       "enable_sni":true,
-      "server_names":["test.safent.xyz"],
+      "server_names":[""],
       "active":true,
       "debug":true
     },

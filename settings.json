@@ -33,11 +33,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
       "name":"سرور‌های دیباگ",
-      "address":"fr1.vipSafeNet.xyz:4443",
-      "enable_http_proxy":true,
+      "address":"arzdigital.com:443",
+      "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["music-fa.com"],
+      "server_names":["test.safent.xyz"],
       "active":true,
       "debug":true
     },

@@ -17,7 +17,7 @@
       "enable_sni":true,
       "server_names":["upmusics.com"],
       "active":false,
-      "debug":false
+      "debug":true
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",

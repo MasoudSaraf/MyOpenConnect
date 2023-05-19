@@ -16,8 +16,8 @@
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["upmusics.com"],
-      "active":false,
-      "debug":true
+      "active":true,
+      "debug":false
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",

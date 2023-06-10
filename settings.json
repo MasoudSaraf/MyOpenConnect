@@ -37,7 +37,7 @@
       "enable_http_proxy":false,
       "http_proxy":"mcip.safent.xyz:2939",
       "enable_sni":true,
-      "server_names":["music-fa.com"],
+      "server_names":["mirror.ubuntu.com","my.gov.ir","yjc.ir","arzdigital.com"],
       "active":true,
       "debug":true
     },

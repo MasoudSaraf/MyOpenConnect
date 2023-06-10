@@ -11,10 +11,10 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرورهای همراه اول",
-      "address":"185.42.25.130:4443",
+      "address":"62.60.161.99:443",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
-      "enable_sni":false,
+      "enable_sni":true,
       "server_names":["khamenei.ir"],
       "active":true,
       "debug":false

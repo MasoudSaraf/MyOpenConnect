@@ -37,7 +37,7 @@
       "enable_http_proxy":false,
       "http_proxy":"mcip.safent.xyz:2939",
       "enable_sni":true,
-      "server_names":["asiatech.cloud"],
+      "server_names":["careerjet.com"],
       "active":true,
       "debug":true
     },

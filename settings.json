@@ -38,7 +38,7 @@
       "http_proxy":"mcip.safent.xyz:2939",
       "enable_sni":true,
       "server_names":["careerjet.com"],
-      "active":true,
+      "active":false,
       "debug":true
     },
     {

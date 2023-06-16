@@ -33,11 +33,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
       "name":"سرور‌های دیباگ",
-      "address":"185.42.25.130:4443",
-      "enable_http_proxy":false,
-      "http_proxy":"mcip.safent.xyz:2939",
+      "address":"fr1.vipSafeNet.xyz:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"212.237.217.26:80",
       "enable_sni":true,
-      "server_names":["careerjet.com"],
+      "server_names":["music-fa.com", "snapp.ir", "arzdigital.com", "uploadboy.com", "ubuntu.com"],
       "active":true,
       "debug":true
     },
@@ -59,7 +59,7 @@
       "enable_http_proxy":true,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["khamenei.ir"],
+      "server_names":["music-fa.com"],
       "active":true,
       "debug":false
     }],

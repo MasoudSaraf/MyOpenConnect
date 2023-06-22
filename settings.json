@@ -33,7 +33,7 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
       "name":"سرور‌های دیباگ",
-      "address":"fr3.vipSafeNet.xyz:443",
+      "address":"212.237.217.26:443",
       "enable_http_proxy":false,
       "http_proxy":"212.237.217.26:80",
       "enable_sni":true,

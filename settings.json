@@ -48,7 +48,7 @@
       "enable_http_proxy":false,
       "http_proxy":"mtnp.vipSafeNet.xyz:80",
       "enable_sni":true,
-      "server_names":["google.com"],
+      "server_names":["khamenei.ir","cloudflare.com","zarinpal.com","216.239.38.120"],
       "active":true,
       "debug":true
     },

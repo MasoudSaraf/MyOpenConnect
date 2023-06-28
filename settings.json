@@ -44,11 +44,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
       "name":"سرور‌های دیباگ",
-      "address":"212.237.217.26:443",
-      "enable_http_proxy":false,
-      "http_proxy":"mtnp.vipSafeNet.xyz:80",
+      "address":"51.77.103.107:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"5.42.87.26:80",
       "enable_sni":true,
-      "server_names":["khamenei.ir","cloudflare.com","zarinpal.com","216.239.38.120"],
+      "server_names":["gstatic.com","khamenei.ir","music-fa.com"],
       "active":true,
       "debug":true
     },

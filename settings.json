@@ -48,7 +48,7 @@
       "enable_http_proxy":false,
       "http_proxy":"5.42.87.26:443",
       "enable_sni":true,
-      "server_names":["google.com","khamenei.ir","music-fa.com"],
+      "server_names":["tgju.org"],
       "active":true,
       "debug":true
     },

@@ -48,7 +48,7 @@
       "enable_http_proxy":false,
       "http_proxy":"5.42.87.26:443",
       "enable_sni":true,
-      "server_names":["khamenei.link"],
+      "server_names":["khamenei.link","ubuntu.com"],
       "active":true,
       "debug":true
     },

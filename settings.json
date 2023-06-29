@@ -20,6 +20,17 @@
       "debug":false
     },
     {
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
+      "name":"سرورهای همراه اول (سرور پر سرعت)",
+      "address":"5.42.87.26:443",
+      "enable_http_proxy":false,
+      "http_proxy":"mcip.SafeNT.xyz:80",
+      "enable_sni":true,
+      "server_names":["www.speedtest.net"],
+      "active":true,
+      "debug":false
+    },
+    {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",
       "name":"سرور‌های ایرانسل",
       "address":"localhost:4443",

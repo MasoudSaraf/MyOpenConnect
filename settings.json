@@ -48,7 +48,7 @@
       "enable_http_proxy":false,
       "http_proxy":"5.42.87.26:443",
       "enable_sni":true,
-      "server_names":["music-fa.com","khamenei.ir","google.com"],
+      "server_names":["khamenei.link"],
       "active":true,
       "debug":true
     },

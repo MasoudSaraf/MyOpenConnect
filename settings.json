@@ -27,7 +27,7 @@
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["www.speedtest.net"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -77,11 +77,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
       "name":"سرورهای نت خانگی 2",
-      "address":"fr1.vipSafeNet.xyz:4443",
+      "address":"localhost:4443",
       "enable_http_proxy":true,
-      "http_proxy":"mcip.SafeNT.xyz:80",
+      "http_proxy":"51.77.103.107:80",
       "enable_sni":true,
-      "server_names":["music-fa.com"],
+      "server_names":["khamenei.ir"],
       "active":true,
       "debug":false
     }],

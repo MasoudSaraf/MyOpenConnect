@@ -86,6 +86,6 @@
       "debug":false
     }],
   "local_ips": [
-    "ipnumberia.com"
+    "2.144.0.0/14"
   ]
 }

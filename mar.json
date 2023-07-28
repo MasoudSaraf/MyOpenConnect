@@ -33,7 +33,7 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2820",
       "name":"سرورهای نت خانگی",
-      "address":"62.60.160.112",
+      "address":"78.138.98.133",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":false,

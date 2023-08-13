@@ -13,9 +13,9 @@
       "name":"سرورهای همراه اول",
       "address":"5.42.87.26:4443",
       "enable_http_proxy":true,
-      "http_proxy":"94.228.163.191:80",
+      "http_proxy":"94.228.163.233:80",
       "enable_sni":true,
-      "server_names":["creativecommons.org"],
+      "server_names":["creativecommons.org","www.speedtest.com","discord.gg","freepik.com","zula.ir","dribbble.com"],
       "active":true,
       "debug":false
     },

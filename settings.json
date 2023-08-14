@@ -15,7 +15,7 @@
       "enable_http_proxy":true,
       "http_proxy":"94.228.163.233:80",
       "enable_sni":true,
-      "server_names":["ketabonline.com","creativecommons.org","github.com","discord.gg","launchpad.net","freepik.com","zula.ir","dribbble.com"],
+      "server_names":["ketabonline.com","creativecommons.org","github.com","discord.gg","launchpad.net","freepik.com","zula.ir","udacity.com","dribbble.com"],
       "active":true,
       "debug":false
     },

@@ -15,20 +15,20 @@
       "enable_http_proxy":false,
       "http_proxy":"94.228.163.233:80",
       "enable_sni":false,
-      "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","zula.ir","udacity.com"],
+      "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","udacity.com"],
       "active":true,
       "debug":false
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
       "name":"سرورهای همراه اول (سرور پر سرعت)",
-      "address":"5.42.87.26:443",
+      "address":"94.228.165.136:443",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","zula.ir","udacity.com"],
-      "active":false,
-      "debug":false
+      "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","udacity.com"],
+      "active":true,
+      "debug":true
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",

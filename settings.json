@@ -26,9 +26,9 @@
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","udacity.com"],
+      "server_names":["xp0.ir"],
       "active":true,
-      "debug":true
+      "debug":false
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",

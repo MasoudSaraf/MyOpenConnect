@@ -77,11 +77,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
       "name":"سرورهای نت خانگی (مخابرات و شاتل)",
-      "address":"94.228.165.136:443",
+      "address":"51.77.103.107:443",
       "enable_http_proxy":false,
       "http_proxy":"65.109.232.126:80",
       "enable_sni":true,
-      "server_names":["xp0.ir"],
+      "server_names":["theverge.com"],
       "active":true,
       "debug":false
     }],

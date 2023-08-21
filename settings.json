@@ -49,7 +49,7 @@
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
       "server_names":["uploadboy.com"],
-      "active":false,
+      "active":true,
       "debug":false
     },
     {

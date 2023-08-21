@@ -44,7 +44,7 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
       "name":"سرور‌های ایرانسل 2",
-      "address":"5.42.74.235",
+      "address":"5.42.87.26",
       "enable_http_proxy":false,
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,

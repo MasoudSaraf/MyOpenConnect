@@ -48,7 +48,7 @@
       "enable_http_proxy":false,
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
-      "server_names":["upmusics.com"],
+      "server_names":["iranhost.com"],
       "active":true,
       "debug":false
     },

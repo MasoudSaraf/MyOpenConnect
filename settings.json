@@ -21,13 +21,13 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
-      "name":"سرورهای همراه اول (سرور پر سرعت)",
-      "address":"94.228.165.136:443",
+      "name":"سرورهای همراه اول (موقت)",
+      "address":"5.42.73.13",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["xp0.ir"],
-      "active":false,
+      "server_names":["swed3.iranstore.online"],
+      "active":true,
       "debug":false
     },
     {

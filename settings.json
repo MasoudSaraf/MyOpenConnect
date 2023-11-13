@@ -11,11 +11,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرورهای همراه اول",
-      "address":"51.77.103.107:443",
+      "address":"91.237.124.216",
       "enable_http_proxy":false,
       "http_proxy":"94.228.163.233:80",
       "enable_sni":true,
-      "server_names":["theverge.com"],
+      "server_names":["panel.safent.xyz"],
       "active":true,
       "debug":false
     },

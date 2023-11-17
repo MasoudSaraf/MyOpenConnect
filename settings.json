@@ -27,7 +27,7 @@
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["panel.safent.xyz"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

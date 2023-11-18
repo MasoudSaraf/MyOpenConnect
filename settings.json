@@ -22,12 +22,12 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
       "name":"سرورهای همراه اول (پرسرعت)",
-      "address":"185.91.69.99/?raymond",
+      "address":"185.91.69.170/?raymond",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
-      "server_names":["panel.safent.xyz"],
-      "active":false,
+      "server_names":["panel.safent.xyz","safent.xyz","dl.safent.xyz"],
+      "active":true,
       "debug":false
     },
     {

@@ -11,11 +11,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرورهای همراه اول",
-      "address":"ios.safent.xyz",
+      "address":"51.77.103.107",
       "enable_http_proxy":false,
       "http_proxy":"94.228.163.233:80",
       "enable_sni":true,
-      "server_names":["swed3.iranstore.online"],
+      "server_names":["ghbi.ir"],
       "active":true,
       "debug":false
     },

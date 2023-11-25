@@ -21,7 +21,7 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
-      "name":"سرورهای همراه اول (پرسرعت)",
+      "name":"سرورهای همراه اول 2",
       "address":"185.91.69.170/?raymond",
       "enable_http_proxy":false,
       "http_proxy":"mcip.SafeNT.xyz:80",
@@ -57,7 +57,7 @@
       "name":"سرور‌های دیباگ",
       "address":"1.1.1.1",
       "enable_http_proxy":true,
-      "http_proxy":"1.1.1.1:80",
+      "http_proxy":"1.1.1.1",
       "enable_sni":true,
       "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","udacity.com"],
       "active":true,
@@ -77,11 +77,11 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
       "name":"سرورهای نت خانگی (مخابرات و شاتل)",
-      "address":"5.42.74.235",
+      "address":"185.91.69.99",
       "enable_http_proxy":false,
       "http_proxy":"65.109.232.126:80",
       "enable_sni":true,
-      "server_names":["xp0.ir"],
+      "server_names":["xp1.ir"],
       "active":true,
       "debug":false
     }],

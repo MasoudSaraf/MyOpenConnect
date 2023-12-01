@@ -22,12 +22,12 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
       "name":"سرورهای همراه اول 2",
-      "address":"185.91.69.170/?raymond",
-      "enable_http_proxy":false,
-      "http_proxy":"mcip.SafeNT.xyz:80",
+      "address":"51.77.103.107:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"91.237.124.179:80",
       "enable_sni":true,
-      "server_names":["tuyaus.com"],
-      "active":false,
+      "server_names":["zara.com","collective.zara.com"],
+      "active":true,
       "debug":false
     },
     {

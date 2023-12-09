@@ -77,7 +77,7 @@
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
       "name":"سرورهای نت خانگی (مخابرات و شاتل)",
-      "address":"185.91.69.99",
+      "address":"91.237.124.179",
       "enable_http_proxy":false,
       "http_proxy":"65.109.232.126:80",
       "enable_sni":true,

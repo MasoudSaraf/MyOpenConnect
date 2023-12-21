@@ -1,7 +1,9 @@
 {
-  "version_code":1300,
-  "download_link":"https://drive.google.com/u/0/uc?id=1Q2QiTibpmjurtXKp86chxqbgPICSTO5S&export=download&confirm=t&uuid=a9d8d6ef-710f-4b9c-8f93-d4bd4e9fffb3&at=AKKF8vxW1lzFkK5gZ8gAzUx2cIuY:1687613538800",
-  "force_update":true,
+  "version_code":1400,
+  "deprecated_version_code": 1399,
+  "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
+  "update_message": "",
+  "force_update":false,
   "max_wait":400000,
   "message": "دوستان عزیز نسخه جدید نرم افزار منتشر شده و تا چند روز دیگه ورژن‌های قبل از 1.40 غیر فعال میشن. لطفا لطفا لطفا در اسرع وقت نرم افزار رو از ربات یا کانال تلگرام دریافت و به ورژن 1.40 به روز رسانی کنین. اگر در حال حاضر از این ورژن استفاده میکنین، کاری لازم نیست انجام بدید. اگر نیاز به راهنمایی داشتین به پشتیبانی پیام بدید. با تشکر",
   "banner": "یک سرور همراه اول مخصوص آخرین ورژن اندروید اضافه شده که پایداری بهتری داره. در حد توان بهش متصل بشین که تست بشه. تشکر",

@@ -48,7 +48,7 @@
       "http_proxy":"mtnp.safefly.xyz:80",
       "enable_sni":true,
       "server_names":["music-fa.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

@@ -24,7 +24,7 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
-      "name":"سرورهای همراه اول",
+      "name":"سرورهای همراه اول و ایرانسل",
       "address":"localhost",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",

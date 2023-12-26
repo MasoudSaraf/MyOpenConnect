@@ -58,7 +58,7 @@
       "enable_http_proxy":false,
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
-      "server_names":["tgju.org", "upmusics.com", "civilica.com", "centos.com"],
+      "server_names":["civilica.com"],
       "active":true,
       "debug":false
     },

@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":400000,
   "message": "",
-  "banner": "دوستان عزیز پیگیر سرورهای نت خانگی هستیم",
+  "banner": "تغییراتی روی سرورهای نت خانگی داده شد. فقط در صورتی که با نت‌های خانگی وصل نمیشید بهش، به پشتیبانی پیام بدید که بررسی کنن و سرور منناسب نت شما رو قرار بدن",
   "user_agents":[
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36","Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1","Mozilla/5.0 (Linux; Android 13; SM-N960U) AppleWebKit/501.36 (KHTML, like Gecko) Chrome/110.0.5481.153 Mobile Safari/501.36","Mozilla/5.0 (Linux; Android 13; SM-N960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.81.153 Mobile Safari/537.36","Mozilla/5.0 (iPod; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/110.0.5481.114 Mobile/15E148 Safari/604.1","Mozilla/5.0 (Linux; Android 12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.153 Mobile Safari/537.36","Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/609.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1","Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.5479.153 Mobile Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 13.2; rv:110.0) Gecko/20100101 Firefox/110.0","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.56","Mozilla/5.0 (iPhone; CPU iPhone OS 15_4_1 like Mac OS X) AppleWebKit/615.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/614.1","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.22.0 Safari/537.36","Mozilla/5.0 (Android 13; Mobile; LG-M255; rv:110.0) Gecko/110.0 Firefox/110.0","Mozilla/5.0 (Windows Mobile 10; Android 10.0; Microsoft; Lumia 950XL) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Mobile Safari/537.36 Edge/40.15254.603","Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:110.0) Gecko/20100101 Firefox/110.0","Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/110.0 Mobile/15E148 Safari/605.1.15","Mozilla/5.0 (Android 10;) Gecko/110.0 Firefox/106.4","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:110.0) Gecko/20100101 Firefox/110.0","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/517.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/517.36","Mozilla/5.0 (Android 13; Mobile; LG-M255) Gecko/110.0 Firefox/110.0","Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/517.36 (KHTML, like Gecko) Chrome/105.76.1.0 Safari/517.36"
   ],
@@ -81,16 +81,23 @@
       "http_proxy":"mcip.SafeNT.xyz:80",
       "enable_sni":true,
       "server_names":["music-fa.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
-      "name":"سرورهای نت خانگی (مخابرات و شاتل)",
-      "address":"91.237.124.179",
-      "enable_http_proxy":false,
-      "http_proxy":"65.109.232.126:80",
-      "enable_sni":true,
+      "name":"سرورهای نت خانگی (همه)",
+      "address":"localhost",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.camdvr.org\",\"port\":2083,\"users\":[{\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safent.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]}}}]}"
+        }]
+      },
+      "enable_sni":false,
       "server_names":["xp1.ir"],
       "active":true,
       "debug":false

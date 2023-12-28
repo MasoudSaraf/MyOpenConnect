@@ -54,7 +54,7 @@
       "enable_http_proxy":false,
       "http_proxy":"mtnp.safefly.xyz:80",
       "enable_sni":true,
-      "device_ids": ["060461be8563025f"],
+      "device_ids": [""],
       "server_names":["music-fa.com"],
       "active":false,
       "debug":false

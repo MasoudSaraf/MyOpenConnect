@@ -77,7 +77,7 @@
       "enable_http_proxy":true,
       "http_proxy":"1.1.1.1",
       "enable_sni":true,
-      "server_names":["gleam.io","pngtree.com","m3.material.io","envato.com","pluralsight.com","codingame.com","launchpad.net","figma.com","eclipse.org","freecodecamp.org","udacity.com"],
+      "server_names":["gleam.io"],
       "active":true,
       "debug":true
     },
@@ -115,6 +115,18 @@
       "enable_sni":false,
       "server_names":["xp1.ir"],
       "active":true,
+      "debug":false
+    },
+    {
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2830",
+      "name":"سرور‌های نت خانگی اختصاصی",
+      "address":"home.safent.xyz",
+      "enable_http_proxy":false,
+      "http_proxy":"1.1.1.1",
+      "enable_sni":false,
+      "device_ids": ["4a0c39d4aad57e10", "aa974dda629e4485"],
+      "server_names":["gleam.io"],
+      "active":false,
       "debug":false
     }],
   "local_ips": [

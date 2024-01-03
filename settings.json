@@ -124,7 +124,7 @@
       "enable_http_proxy":false,
       "http_proxy":"1.1.1.1",
       "enable_sni":false,
-      "device_ids": ["4a0c39d4aad57e10", "aa974dda629e4485", "9ee14ba68c720898", "44ecea4b0f77eaa2"],
+      "device_ids": ["4a0c39d4aad57e10", "aa974dda629e4485", "9ee14ba68c720898", "44ecea4b0f77eaa2", "eff58ce7f846410c"],
       "server_names":["gleam.io"],
       "active":false,
       "debug":false

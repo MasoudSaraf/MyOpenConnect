@@ -83,19 +83,20 @@
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2824",
-      "name":"سرورهای نت خانگی 2",
-      "address":"141.94.32.27",
-      "enable_http_proxy":true,
+      "name":"سرورهای نت خانگی (مخابرات شاتل) برای تست",
+      "address":"134.119.180.74",
+      "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
-        "enable": true,
+        "enable": false,
         "xray_configs": [{
           "active": true,
           "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"178.236.247.105\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\"}]}]},\"streamSettings\":{\"network\":\"tcp\",\"realitySettings\":{\"allowInsecure\":false,\"fingerprint\":\"edge\",\"publicKey\":\"sUeZtmlkJHAbc_Ksfn0d1RgemqoBakDsf9C0wr0i5EA\",\"serverName\":\"ubuntu.com\",\"shortId\":\"dc588dae\",\"show\":false,\"spiderX\":\"\"},\"security\":\"reality\",\"tcpSettings\":{\"header\":{\"type\":\"none\"}}}}]}"
         }]
       },
-      "enable_sni":false,
-      "server_names":["music-fa.com"],
+      "enable_sni":true,
+      "device_ids": ["4a0c39d4aad57e10", "44ecea4b0f77eaa2", "7a86b2e5431ebd99"],
+      "server_names":["uploadboy.com"],
       "active":false,
       "debug":false
     },

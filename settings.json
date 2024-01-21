@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":250000,
   "message": "",
-  "banner": "یک سرور برای مخابرات و شاتل قرار داده شد. لطفا با اینترنت‌ همراه اول به هیچ عنوان سعی نکنین بهش وصل بشین.",
+  "banner": "مشکل سرورهای نت خانگی یک و دو و سرور همراه اول و ایرانسل حل شد",
   "user_agents":[
     "coc"
   ],
@@ -21,7 +21,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.camdvr.org\",\"port\":2082,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"level\":8,\"security\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"\",\"wsSettings\":{\"headers\":{\"Host\":\"accounts.safefly.xyz\"},\"path\":\"/\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.webredirect.org\",\"port\":2082,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"level\":8,\"security\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"\",\"wsSettings\":{\"headers\":{\"Host\":\"accounts.safefly.xyz\"},\"path\":\"/\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -39,7 +39,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.camdvr.org\",\"port\":2087,\"users\":[{\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.webredirect.org\",\"port\":2087,\"users\":[{\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]}}}]}"
         }]
       },
       "enable_sni":false,
@@ -110,7 +110,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.camdvr.org\",\"port\":2087,\"users\":[{\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safent.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"git.nmV2ray.webredirect.org\",\"port\":2087,\"users\":[{\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safent.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]}}}]}"
         }]
       },
       "enable_sni":false,

@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":250000,
   "message": "",
-  "banner": "مشکل سرورهای نت خانگی یک و دو و سرور همراه اول و ایرانسل حل شد",
+  "banner": "",
   "user_agents":[
     "coc"
   ],

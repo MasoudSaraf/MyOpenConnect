@@ -84,7 +84,7 @@
     {
       "uuid": "1c540f82-fb67-4bf9-9362-504e144b2824",
       "name": "سرورهای نت خانگی (مخابرات شاتل)",
-      "address": "localhost:4443",
+      "address": "87.119.220.40:4443",
       "enable_http_proxy": true,
       "http_proxy": "127.0.0.1:2939",
       "xray": {

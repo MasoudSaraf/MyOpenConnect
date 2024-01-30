@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":250000,
   "message": "",
-  "banner": "سرورهای همراه اول و ایرانسل حل شد. سرورهای نت خانگی ۳ هم الان درحال پیگیری هستیم",
+  "banner": "سرورهای همراه اول و ایرانسل حل شد. سرورهای نت خانگی ۳ هم حل شد,
   "user_agents":[
     "coc"
   ],
@@ -21,7 +21,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2082,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"level\":8,\"security\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"\",\"wsSettings\":{\"headers\":{\"Host\":\"accounts.safefly.xyz\"},\"path\":\"/\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vmess\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2082,\"users\":[{\"alterId\":0,\"encryption\":\"\",\"flow\":\"\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\",\"level\":8,\"security\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"\",\"wsSettings\":{\"headers\":{\"Host\":\"accounts.safefly.xyz\"},\"path\":\"/\"},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"109-207\",\"interval\":\"11-24\"}}}]}"
         }]
       },
       "enable_sni":false,

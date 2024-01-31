@@ -26,7 +26,7 @@
       },
       "enable_sni":false,
       "server_names":["tuya.com"],
-      "device_ids":["0fa65b46a68640f5","4a0c39d4aad57e10"],
+      "device_ids":["0fa65b46a68640f5","4a0c39d4aad57e10", "9ee14ba68c720898"],
       "active":false,
       "debug":false
     },

@@ -4,7 +4,7 @@
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "",
   "force_update":false,
-  "max_wait":250000,
+  "max_wait":600000,
   "message": "",
   "banner": "برای دوستانی که با نت مخابرات مشکل اتصال داشتن، سرور نت خانگی مخابرات شاتل تغییر داده شد. لطفا بهش وصل بشید و نتیجه رو به پشتیبانی اطلاع بدید",
   "enable_device_ids":false,

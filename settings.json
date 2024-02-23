@@ -6,7 +6,8 @@
   "force_update":false,
   "max_wait":250000,
   "message": "",
-  "banner": "",
+  "banner": "برای دوستانی که با نت مخابرات مشکل اتصال داشتن، سرور نت خانگی مخابرات شاتل تغییر داده شد. لطفا بهش وصل بشید و نتیجه رو به پشتیبانی اطلاع بدید",
+  "enable_device_ids":false,
   "user_agents":[
     "coc"
   ],
@@ -97,7 +98,6 @@
       },
       "enable_sni": false,
       "server_names": ["uploadboy.com"],
-      "device_ids": ["4a0c39d4aad57e10", "44ecea4b0f77eaa2", "7a86b2e5431ebd99", "c9ef1614f86d066d", "ea265009039a3c69", "fd8341757b0456ea", "5bbedaf71eb01dee", "0fa65b46a68640f5", "3e44b5ea9b9d6805", "6eee5993f54bc6ba"],
       "active":true,
       "debug":false
     },

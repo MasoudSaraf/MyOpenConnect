@@ -93,7 +93,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"f98f-84-32-41-40.ngrok-free.app\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"tlsSettings\":{\"fingerprint\":\"chrome\",\"alpn\":[\"h2\"],\"allowInsecure\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"tender-lizards-rule.loca.lt\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\"}]}]},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"tls\",\"tcpSettings\":{\"header\":{\"bypass-tunnel-reminder\":\"bypass\"}},\"tlsSettings\":{\"fingerprint\":\"chrome\",\"alpn\":[\"h2\"],\"allowInsecure\":true}}}]}"
         }]
       },
       "enable_sni": false,

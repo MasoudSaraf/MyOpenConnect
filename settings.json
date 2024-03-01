@@ -50,18 +50,6 @@
       "debug":false
     },
     {
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2822",
-      "name":"سرور‌های ایرانسسسسسل",
-      "address":"mtnp.safefly.xyz",
-      "enable_http_proxy":false,
-      "http_proxy":"mtnp.safefly.xyz:80",
-      "enable_sni":true,
-      "device_ids": [""],
-      "server_names":["music-fa.com"],
-      "active":false,
-      "debug":false
-    },
-    {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
       "name":"سرور‌های ایرانسل",
       "address":"5.42.87.26",

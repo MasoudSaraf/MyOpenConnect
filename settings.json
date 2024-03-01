@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":600000,
   "message": "",
-  "banner": "مجددا سرورهای مخابرات و شاتل تغییر داده شد. مجددا تست کنین",
+  "banner": "",
   "enable_device_ids":false,
   "user_agents":[
     "coc"

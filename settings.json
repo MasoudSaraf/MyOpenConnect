@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":600000,
   "message": "",
-  "banner": "سرورهای ایرانسل مجددا از دسترس خارج شد. مشکل حل شد مجددا در لیست قرار میگیره",
+  "banner": "",
   "enable_device_ids":false,
   "user_agents":[
     "coc"
@@ -57,7 +57,7 @@
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
       "server_names":["civilica.com"],
-      "active":false,
+      "active":true,
       "debug":false
     },
     {

@@ -73,14 +73,14 @@
     {
       "uuid": "1c540f82-fb67-4bf9-9362-504e144b2824",
       "name": "سرورهای نت خانگی (مخابرات شاتل)",
-      "address": "84.32.41.40:4443",
+      "address": "213.134.31.241:4443",
       "enable_http_proxy": true,
       "http_proxy": "127.0.0.1:2939",
       "xray": {
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"84.32.41.40\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"flow\":\"xtls-rprx-vision\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\"}]}]},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"tls\",\"tlsSettings\":{\"serverName\":\"media.geeksforgeeks.org\",\"fingerprint\":\"chrome\",\"alpn\":[\"h2\"],\"allowInsecure\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"213.134.31.241\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\"}]}]},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"tls\",\"tlsSettings\":{\"serverName\":\"meDIa.miCroSoFt.cOM\",\"fingerprint\":\"chrome\",\"alpn\":[\"h2\"],\"allowInsecure\":true}}}]}"
         }]
       },
       "enable_sni": false,

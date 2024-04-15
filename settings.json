@@ -6,7 +6,7 @@
   "force_update":false,
   "max_wait":600000,
   "message": "",
-  "banner": "درحال پیگیری برای سرورهای ایرانسل هستیم. خیلی سریع مشکل رو حل میکنیم و اطلاع میدیم",
+  "banner": "مشکل سرورهای ایرانسل فعلا رفع شد.",
   "enable_device_ids":false,
   "user_agents":[
     "coc"
@@ -28,7 +28,7 @@
       "enable_sni":false,
       "server_names":["tuya.com"],
       "active":true,
-      "debug":true
+      "debug":false
     },
     {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
@@ -56,7 +56,7 @@
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
       "server_names":["civilica.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

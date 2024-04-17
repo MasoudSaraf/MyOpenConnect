@@ -50,6 +50,26 @@
       "active":true,
       "debug":false
     },
+    ,
+    {
+      "index": 350,
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2836",
+      "name":"سرورهای ایرانسل",
+      "address":"localhost:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"91.237.124.179\",\"port\":2096,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"6474b4c4612656909e082b5a72b839ce.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-23\",\"interval\":\"9-38\"}}}]}"
+        }]
+      },
+      "enable_sni":false,
+      "server_names":["zara.com"],
+      "active":true,
+      "debug":true
+    },
     {
       "index": 350,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2836",

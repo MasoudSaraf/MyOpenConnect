@@ -1,8 +1,8 @@
 {
-  "version_code":1400,
+  "version_code":1460,
   "deprecated_version_code": 1399,
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
-  "update_message": "",
+  "update_message": "دوستان ورژن 1.46 نسخه اندروید منتشر شد. میتونین از ربات تلگرام یا کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. تا چند روز آینده حتما به‌روزرسانی کنین.",
   "force_update":false,
   "max_wait":600000,
   "message": "",
@@ -33,7 +33,6 @@
     },
     {
       "index": 300,
-      "info":"حالا تغییرش دادیم ببینیم چی میشه",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرورهای همراه اول",
       "address":"localhost:4443",

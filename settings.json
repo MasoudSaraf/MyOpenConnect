@@ -108,6 +108,26 @@
       "debug":true
     },
     {
+      "index": 352,
+      "info": "این سرور فقط مخصوص کسانی هست که از اینترنت همراه ایرانسل استفاده میکنن و ipv6 رو در تنظیمات گوشیشون فعال کردن. نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn مخصوص به سیمکارت ایرانسل رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2838",
+      "name":"سرورهای ایرانسل (ipv6)",
+      "address":"localhost:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a13:2480:40::262]\",\"port\":2096,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":false,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"git.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}}}]}"
+        }]
+      },
+      "enable_sni":false,
+      "server_names":["zara.com"],
+      "active":true,
+      "debug":false
+    },
+    {
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
       "name":"سرور‌های ایرانسل",
       "address":"5.42.87.26",

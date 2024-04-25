@@ -1,12 +1,12 @@
 {
   "version_code":1460,
-  "deprecated_version_code": 1399,
+  "deprecated_version_code": 1459,
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
-  "update_message": "دوستان ورژن 1.46 نسخه اندروید منتشر شد. میتونین از ربات تلگرام یا کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. تا چند روز آینده حتما به‌روزرسانی کنین.",
-  "force_update":false,
+  "update_message": "دوستان ورژن 1.46 نسخه اندروید منتشر شد. میتونین از ربات تلگرام یا کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
+  "force_update": true,
   "max_wait":600000,
   "message": "",
-  "banner": "با سلام. دوستان ایرانسل از هفته پیش فیلترینگ شدیدی رو شروع کرده و مشکلات زیادی ایجاد شده. پیگیر جایگزین کردن سرورها هستیم. لطفا کمی صبر کنین تا سرورهای جدید جایگزین بشن و یکی یکی مشکلات رو حل کنیم. تشکر",
+  "banner": "",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -204,7 +204,7 @@
       },
       "enable_sni":false,
       "enable_device_ids":true,
-      "device_ids": ["0fa65b46a68640f5", "4a0c39d4aad57e10"],
+      "device_ids": ["0fa65b46a68640f5", "4a0c39d4aad57e10", "2d7c4145489939de"],
       "server_names":["xp1.ir"],
       "active":false,
       "debug":false

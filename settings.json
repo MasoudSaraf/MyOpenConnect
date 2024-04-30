@@ -66,7 +66,7 @@
       },
       "enable_sni":false,
       "server_names":["zara.com"],
-      "active":true,ب
+      "active":true,
       "debug":false
     },
     {

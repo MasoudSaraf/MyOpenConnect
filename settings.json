@@ -13,25 +13,6 @@
   ],
   "servers":[
     {
-      "index": 400,
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2828",
-      "name":"سرورهای ایرانسل",
-      "address":"185.91.69.40:4443",
-      "enable_http_proxy":true,
-      "http_proxy":"127.0.0.1:2939",
-      "xray": {
-        "enable": true,
-        "xray_configs": [{
-          "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"185.91.69.40\",\"port\":443,\"users\":[{\"encryption\":\"none\",\"id\":\"82a421ee-f8bd-5e07-b1bb-e16e25dcc53c\"}]}]},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"tls\",\"tlsSettings\":{\"serverName\":\"medIa.geEkSfOrGeekS.oRg\",\"fingerprint\":\"chrome\",\"alpn\":[\"h2\"],\"allowInsecure\":true}}}]}"
-        }]
-      },
-      "enable_sni":false,
-      "server_names":["tuya.com"],
-      "active":false,
-      "debug":false
-    },
-    {
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرورهای همراه اول",
@@ -47,6 +28,25 @@
       },
       "enable_sni":false,
       "server_names":["zara.com"],
+      "active":true,
+      "debug":false
+    },
+    {
+      "index": 301,
+      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2839",
+      "name":"سرورهای همراه اول 2",
+      "address":"84.32.41.81:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"middle.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"109-207\",\"interval\":\"11-24\"}}}]}"
+        }]
+      },
+      "enable_sni":false,
+      "server_names":["xp1.ir"],
       "active":true,
       "debug":false
     },
@@ -89,25 +89,6 @@
       "debug":false
     },
     {
-      "index": 351,
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2837",
-      "name":"سرورهای ایرانسل (ws)",
-      "address":"localhost:4443",
-      "enable_http_proxy":true,
-      "http_proxy":"127.0.0.1:2939",
-      "xray": {
-        "enable": true,
-        "xray_configs": [{
-          "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"encryption\":\"none\",\"id\":\"koshangolshan\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":false,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"ws\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"git.safefly.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"git.safefly.xyz\"},\"path\":\"/datapas?ed=2048\"}},\"mux\":{\"concurrency\":8,\"enabled\":true,\"xudpConcurrency\":8,\"xudpProxyUDP443\":\"allow\"}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
-        }]
-      },
-      "enable_sni":false,
-      "server_names":["zara.com"],
-      "active":true,
-      "debug":true
-    },
-    {
       "index": 352,
       "info": "این سرور فقط مخصوص کسانی هست که از اینترنت همراه ایرانسل یا رایتل استفاده میکنن و ipv6 رو در تنظیمات گوشیشون فعال کردن. نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn مخصوص به سیمکارت ایرانسل رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2838",
@@ -128,15 +109,16 @@
       "debug":false
     },
     {
+      "index": 353,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
-      "name":"سرور‌های ایرانسل",
-      "address":"5.42.87.26",
+      "name":"سرور‌های ایرانسل و رایتل (ipv6) 2",
+      "address":"[2a0b:4140:64b7:1:1:1:1:2]",
       "enable_http_proxy":false,
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
-      "server_names":["civilica.com"],
-      "active":false,
-      "debug":false
+      "server_names":["drive.google.com.xp0.ir"],
+      "active":true,
+      "debug":true
     },
     {
       "index": 10000,

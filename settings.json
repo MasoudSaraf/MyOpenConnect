@@ -23,7 +23,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2096,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-23\",\"interval\":\"9-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true,\"mark\":255}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"uk1.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-23\",\"interval\":\"9-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true,\"mark\":255}}}]}"
         }]
       },
       "enable_sni":false,
@@ -80,7 +80,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2096,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"git.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-23\",\"interval\":\"9-38\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":false},\"tlsSettings\":{\"serverName\":\"uk1.safefly.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-23\",\"interval\":\"9-38\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -100,7 +100,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a13:2480:40::262]\",\"port\":2096,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":false,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"git.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a13:2480:40::262]\",\"port\":2096,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":false,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"drive.google.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -182,11 +182,11 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"encryption\":\"none\",\"id\":\"koshangolshan\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"git.safefly.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"git.safefly.xyz\"},\"path\":\"/datapas\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"\",\"sockopt\":{\"TcpNoDelay\":true,\"mark\":255}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"encryption\":\"none\",\"id\":\"koshangolshan\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"drive.google.safefly.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"drive.google.safefly.xyz\"},\"path\":\"/datapas\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"\",\"sockopt\":{\"TcpNoDelay\":true,\"mark\":255}}}]}"
         }]
       },
       "enable_sni":false,
-      "enable_device_ids":true,
+      "enable_device_ids":false,
       "device_ids": ["0fa65b46a68640f5", "4a0c39d4aad57e10", "2d7c4145489939de"],
       "server_names":["xp1.ir"],
       "active":false,

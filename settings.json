@@ -1,13 +1,13 @@
 {
-  "version_code":1460,
+  "version_code":1490,
   "deprecated_version_code": 1459,
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
-  "update_message": "دوستان ورژن 1.46 نسخه اندروید منتشر شد. میتونین از ربات تلگرام یا کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
-  "force_update": true,
+  "update_message": "دوستان ورژن 1.49 نسخه اندروید منتشر شد. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
+  "force_update": false,
   "max_wait":600000,
   "message": "",
   "banner": "همراه اول در خیلی از مناطق ipv6 رو فعال کرده و کافیه شما هم توی تنظیمات گوشیتون ipv6 رو فعال کنین تا بتونین از سرورهای مخصوصی که قرار دادیم استفاده کنین. نحوه فعالسازی ipv6 رو یا سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنن",
-  "enable_device_ids":true,
+  "enable_device_ids":false,
   "user_agents":[
     "coc"
   ],

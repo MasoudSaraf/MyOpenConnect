@@ -86,7 +86,7 @@
       "enable_sni":false,
       "server_names":["zara.com"],
       "active":true,
-      "debug":true
+      "debug":false
     },
     {
       "index": 352,
@@ -105,7 +105,7 @@
       },
       "enable_sni":false,
       "server_names":["zara.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -118,7 +118,7 @@
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
       "server_names":["drive.google.com.xp0.ir"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

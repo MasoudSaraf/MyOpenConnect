@@ -149,15 +149,15 @@
       },
       "enable_sni": false,
       "server_names": ["uploadboy.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
       "index": 100,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
       "name":"سرورهای نت خانگی",
-      "address":"84.32.41.81:4443",
-      "enable_http_proxy":true,
+      "address":"185.42.25.43",
+      "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
         "enable": true,

@@ -6,7 +6,7 @@
   "force_update": true,
   "max_wait":600000,
   "message": "",
-  "banner": "دوستان مشکل رفع شده و الان نباید مشکلی داشته باشید. ✅✅",
+  "banner": "",
   "enable_device_ids":false,
   "user_agents":[
     "coc"
@@ -100,7 +100,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a13:2480:40::361]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"google.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"11-29\",\"length\":\"9-22\",\"packets\":\"tlshello\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a13:2480:40::361]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"google.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -117,7 +117,7 @@
       "enable_http_proxy":false,
       "http_proxy":"45.15.158.11:80",
       "enable_sni":true,
-      "server_names":["drive.google.com.xp0.ir."],
+      "server_names":["docs.google.com.xp0.ir", "docs.google.com.xp1.ir"],
       "active":true,
       "debug":false
     },

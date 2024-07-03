@@ -1,9 +1,9 @@
 {
-  "version_code":1490,
+  "version_code":1510,
   "deprecated_version_code": 1489,
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
-  "update_message": "دوستان ورژن 1.49 نسخه اندروید منتشر شد. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
-  "force_update": true,
+  "update_message": "دوستان ورژن 1.51 منتشر شد. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
+  "force_update": false,
   "max_wait":600000,
   "message": "",
   "banner": "",

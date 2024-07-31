@@ -16,7 +16,7 @@
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرورهای همراه اول",
-      "address":"localhost:4443",
+      "address":"84.32.41.81:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {

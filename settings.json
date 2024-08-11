@@ -47,7 +47,7 @@
       },
       "enable_sni":false,
       "server_names":["xp1.ir"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

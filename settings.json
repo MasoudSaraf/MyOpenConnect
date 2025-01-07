@@ -184,40 +184,6 @@
       "server_names":["xp1.ir"],
       "active":true,
       "debug":false
-    },
-    {
-      "index": 10000,
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2900",
-      "name":"سرور تست",
-      "address":"84.32.41.81:39495",
-      "enable_http_proxy":true,
-      "http_proxy":"127.0.0.1:2939",
-      "xray": {
-        "enable": true,
-        "xray_configs": [{
-          "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"encryption\":\"none\",\"id\":\"koshangolshan\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":false,\"alpn\":[\"h2\",\"http/1.1\"],\"fingerprint\":\"chrome\",\"serverName\":\"drive.google.safefly.xyz\"},\"wsSettings\":{\"headers\":{\"Host\":\"drive.google.safefly.xyz\"},\"path\":\"/datapas\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"9-32\",\"length\":\"9-22\",\"packets\":\"tlshello\"}},\"streamSettings\":{\"network\":\"tcp\",\"security\":\"\",\"sockopt\":{\"TcpNoDelay\":true,\"mark\":255}}}]}"
-        }]
-      },
-      "enable_sni":false,
-      "enable_device_ids":false,
-      "device_ids": ["0fa65b46a68640f5", "4a0c39d4aad57e10", "2d7c4145489939de"],
-      "server_names":["xp1.ir"],
-      "active":false,
-      "debug":false
-    },
-    {
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2830",
-      "name":"سرور‌های نت خانگی اختصاصی",
-      "address":"home.safenetw.xyz",
-      "enable_http_proxy":false,
-      "http_proxy":"1.1.1.1",
-      "enable_sni":true,
-      "enable_device_ids":false,
-      "device_ids": ["4a0c39d4aad57e10", "aa974dda629e4485", "9ee14ba68c720898", "44ecea4b0f77eaa2", "eff58ce7f846410c", "7a86b2e5431ebd99"],
-      "server_names":["home.safent.xyz"],
-      "active":false,
-      "debug":false
     }],
   "local_ips": [
     "2.144.0.0/14","sep.shaparak.ir","ecd.shaparak.ir","asan.shaparak.ir","pna.shaparak.ir","bpm.shaparak.ir","pep.shaparak.ir","pec.shaparak.ir","sadad.shaparak.ir","fcp.shaparak.ir","ikc.shaparak.ir"

@@ -170,14 +170,14 @@
       "index": 100,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
       "name":"سرورهای نت خانگی",
-      "address":"84.32.41.81:4443",
+      "address":"91.237.124.244:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"84.32.41.81\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"google.masoudnet.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"35-47\",\"interval\":\"11-24\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"91.237.124.244\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"google.masoudnet.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"35-47\",\"interval\":\"11-24\"}}}]}"
         }]
       },
       "enable_sni":false,

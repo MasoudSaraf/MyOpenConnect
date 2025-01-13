@@ -6,7 +6,7 @@
   "force_update": true,
   "max_wait":600000,
   "message": "",
-  "banner": "",
+  "banner": "دوستان مشکلی که روی سرور ایرانسل برای اتصال بود حل شد. لطفا مجددا تست کنین و در صورتی که مشکلی بود اطلاع بدید",
   "enable_device_ids":true,
   "user_agents":[
     "coc"

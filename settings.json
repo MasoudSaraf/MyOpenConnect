@@ -6,7 +6,7 @@
   "force_update": true,
   "max_wait":600000,
   "message": "",
-  "banner": "",
+  "banner": "دوستان عزیز آدرسای ios آپدیت شدن و اگر کسی با آدرسای قدیمی نمیتونه وصل شه آدرسای جدید رو از ربات بگیری د. آدرس safe98.xyz جدید هست",
   "enable_device_ids":true,
   "user_agents":[
     "coc"

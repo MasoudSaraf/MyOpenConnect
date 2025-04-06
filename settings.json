@@ -6,7 +6,7 @@
   "force_update": true,
   "max_wait":600000,
   "message": "",
-  "banner": "دوستان اختلال زیادی روی شبکه زیرساخت ایجاد شده و ممکنه توی اتصال با ایرانسل به مشکل بخورین. فعلا برای اتصال با ایرانسل از سرورهای ipv6 استفاده کنین تا ببینیم وضعیت چه تغییری میکنه",
+  "banner": "همه سرورها به روز شدن و میتونین بدون مشکل متصل بشین. ممکنه بعضی از سرورها برای یک عده کار کنه و بعضی دیگه کار نکنه. به طور مثال ممکنه سرور ایرانسل برای بعضیا وصل بشه و برای بقیه ایرانسل ۲ وصل بشه.",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -15,7 +15,7 @@
     {
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
-      "name":"سرورهای همراه اول",
+      "name":"سرور همراه اول",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -23,59 +23,40 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/wss9000?ed=2560\",\"host\":\"temp.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"temp.safesafe.xyz.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"wifi.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"wifi.safesafe.xyz.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,
-      "server_names":["home.safenetw.xyz"],
+      "server_names":[""],
       "active":true,
-      "debug":false
-    },
-    {
-      "index": 301,
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2839",
-      "name":"سرورهای همراه اول 2",
-      "address":"localhost:4443",
-      "enable_http_proxy":true,
-      "http_proxy":"127.0.0.1:2939",
-      "xray": {
-        "enable": true,
-        "xray_configs": [{
-          "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"swee.hesabdarijavan.ir\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true,\"mark\":255}}}]}"
-        }]
-      },
-      "enable_sni":false,
-      "server_names":["xp1.ir"],
-      "active":false,
       "debug":false
     },
     {
       "index": 340,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2835",
-      "name":"سرورهای ایرانسل",
+      "name":"سرور ایرانسل",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
         "enable": true,
         "xray_configs": [{
-          "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"185.106.94.8\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"drive.google.cOm.Xp0.iR\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-20\",\"interval\":\"9-32\"}}}]}"
-        },{
           "active": false,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true,\"initial_windows_size\":66666},\"tlsSettings\":{\"serverName\":\"mymtb.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"185.106.94.8\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"drive.google.cOm.Xp0.iR\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-20\",\"interval\":\"9-32\"}}}]}"
+        },{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"mymtb.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"mymtb.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,
-      "server_names":["zara.com"],
+      "server_names":[""],
       "active":true,
       "debug":false
     },
     {
       "index": 350,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2836",
-      "name":"سرورهای ایرانسل 2 (سرعت بالاتر)",
+      "name":"سرور ایرانسل 2",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -83,19 +64,19 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true,\"initial_windows_size\":66666},\"tlsSettings\":{\"serverName\":\"mymtb.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"mymtb.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,
-      "server_names":["zara.com"],
+      "server_names":[""],
       "active":true,
-      "debug":true
+      "debug":false
     },
     {
       "index": 352,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2838",
-      "name":"سرورهای ایرانسل، رایتل و همراه اول (ipv6)",
+      "name":"سرور ایرانسل، رایتل و همراه اول (ipv6)",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -103,11 +84,11 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a0b:4140:4816::2]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"google.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a0b:4140:4816::2]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"myservice\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"fragment\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"google.safefly.xyz\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
         }]
       },
       "enable_sni":false,
-      "server_names":["zara.com"],
+      "server_names":[""],
       "active":true,
       "debug":false
     },
@@ -115,31 +96,31 @@
       "index": 353,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
-      "name":"سرور‌های ایرانسل، رایتل و همراه اول (ipv6) 2",
+      "name":"سرور‌ ایرانسل، رایتل و همراه اول (ipv6) 2",
       "address":"[2a0b:4140:4816::2]",
       "enable_http_proxy":false,
-      "http_proxy":"45.15.158.11:80",
+      "http_proxy":"",
       "enable_sni":true,
-      "server_names":["docs.google.com.xp1.ir", "docs.google.com.xp1.ir"],
+      "server_names":["docs.google.com.xp1.ir", "drive.google.com.xp1.ir"],
       "active":true,
       "debug":false
     },
     {
       "index": 10000,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
-      "name":"سرور‌های دیباگ",
+      "name":"سرور‌ دیباگ",
       "address":"1.1.1.1",
       "enable_http_proxy":true,
       "http_proxy":"1.1.1.1",
       "enable_sni":true,
-      "server_names":["gleam.io"],
+      "server_names":[""],
       "active":true,
       "debug":true
     },
     {
       "index": 200,
       "uuid": "1c540f82-fb67-4bf9-9362-504e144b2824",
-      "name": "سرورهای نت خانگی (مخابرات شاتل)",
+      "name": "سرور نت خانگی (مخابرات شاتل)",
       "address": "localhost:4443",
       "enable_http_proxy": true,
       "http_proxy": "127.0.0.1:2939",
@@ -147,18 +128,18 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true,\"initial_windows_size\":66666},\"tlsSettings\":{\"serverName\":\"wifi.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"13-29\",\"interval\":\"11-24\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"wifi.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"wifi.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"13-29\",\"interval\":\"11-24\"}}}]}"
         }]
       },
       "enable_sni": false,
-      "server_names": ["uploadboy.com"],
+      "server_names": [""],
       "active":true,
       "debug":false
     },
     {
       "index": 100,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2825",
-      "name":"سرورهای نت خانگی",
+      "name":"سرور نت خانگی",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -166,11 +147,11 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"185.106.94.8\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"google.masoudnet.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"35-47\",\"interval\":\"11-24\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"185.106.94.8\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"docs.google.com.xp1.ir\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"35-47\",\"interval\":\"11-24\"}}}]}"
         }]
       },
       "enable_sni":false,
-      "server_names":["xp1.ir"],
+      "server_names":[""],
       "active":true,
       "debug":false
     }],

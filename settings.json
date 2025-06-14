@@ -16,18 +16,18 @@
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرور همراه اول",
-      "address":"localhost:4443",
-      "enable_http_proxy":true,
+      "address":"bak.safesafe.xyz",
+      "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
-        "enable": true,
+        "enable": false,
         "xray_configs": [{
           "active": true,
           "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"wifi.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"wifi.safesafe.xyz.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,
-      "server_names":[""],
+      "server_names":["my.mizbanonline.com","mizbanonline.com"],
       "active":true,
       "debug":false
     },
@@ -89,7 +89,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -102,7 +102,7 @@
       "http_proxy":"",
       "enable_sni":true,
       "server_names":["docs.google.com.xp1.ir", "drive.google.com.xp1.ir"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -120,7 +120,7 @@
     {
       "index": 200,
       "uuid": "1c540f82-fb67-4bf9-9362-504e144b2824",
-      "name": "سرور نت خانگی (مخابرات شاتل)",
+      "name": "سرور تمام نت‌های خانگی",
       "address": "localhost:4443",
       "enable_http_proxy": true,
       "http_proxy": "127.0.0.1:2939",
@@ -152,7 +152,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

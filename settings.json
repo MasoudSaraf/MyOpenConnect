@@ -54,7 +54,7 @@
       "index": 302,
       "uuid":"6c8fc008-07dd-4b04-93c6-cfc6ffc56e2e",
       "name":"سرور همراه اول 3",
-      "address":"62.60.161.99",
+      "address":"185.88.152.113",
       "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {

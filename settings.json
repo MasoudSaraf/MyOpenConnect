@@ -202,6 +202,7 @@
       "http_proxy":"1.1.1.1",
       "enable_sni":false,
       "server_names":[""],
+      "enable_device_ids":false,
       "device_ids":["a6a4a2574d592c15","4a0c39d4aad57e10"],
       "active":false,
       "debug":false

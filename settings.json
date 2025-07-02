@@ -1,6 +1,7 @@
 {
   "version_code":1520,
   "deprecated_version_code": 1509,
+  "config_version": "1404-04-11",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.52 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. این آپدیت مخصوص همراه اولیایی هست که با صفحه سفید مواجه میشدن.",
   "force_update": false,

@@ -35,7 +35,7 @@
         {
       "index": 301,
       "uuid":"bd8f4981-06b6-4e63-ad1e-405a7f3e5d8a",
-      "name":"سرور همراه اول 2",
+      "name":"سرور همراه اول 1",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",

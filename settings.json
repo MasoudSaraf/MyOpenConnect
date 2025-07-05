@@ -148,6 +148,7 @@
       "index": 10000,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2823",
       "name":"سرور‌ دیباگ",
+      "sub_info":"این یک ساب اینفوی تست هست",
       "address":"1.1.1.1",
       "enable_http_proxy":true,
       "http_proxy":"1.1.1.1",

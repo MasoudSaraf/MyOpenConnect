@@ -1,13 +1,13 @@
 {
-  "version_code":1520,
+  "version_code":1540,
   "deprecated_version_code": 1509,
-  "config_version": "040413",
+  "config_version": "040414",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
-  "update_message": "دوستان ورژن 1.52 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. این آپدیت مخصوص همراه اولیایی هست که با صفحه سفید مواجه میشدن.",
+  "update_message": "دوستان ورژن 1.54 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. تا چند روز دیگه آپدیت به ورژن 1.54 اجباری خواهد شد و ورژن‌های قدیمی از دسترس خارج خواهند شد.",
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "سرور همراه اول به روز شد",
+  "banner": "سرورهای همراه اول مجددا به روز شد",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -17,8 +17,8 @@
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرور همراه اول 1",
-      "address":"localhost:4443",
-      "enable_http_proxy":true,
+      "address":"185.88.152.159",
+      "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
         "enable": true,
@@ -27,17 +27,17 @@
           "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"wifi.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"wifi.safesafe.xyz.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
-      "enable_sni":false,
-      "server_names":["my.mizbanonline.com","mizbanonline.com"],
-      "active":false,
+      "enable_sni":true,
+      "server_names":["my.modiranhost.com","modiranhost.com"],
+      "active":true,
       "debug":false
     },
-        {
+    {
       "index": 301,
       "uuid":"bd8f4981-06b6-4e63-ad1e-405a7f3e5d8a",
-      "name":"سرور همراه اول 1",
-      "address":"37.221.93.20:4443",
-      "enable_http_proxy":true,
+      "name":"سرور همراه اول 2",
+      "address":"185.88.152.207",
+      "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
         "enable": true,
@@ -46,12 +46,12 @@
           "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"85.192.56.151\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"ubuntu.com.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
-      "enable_sni":false,
-      "server_names":["my.mizbanonline.com","mizbanonline.com"],
+      "enable_sni":true,
+      "server_names":["my.modiranhost.com","modiranhost.com"],
       "active":true,
       "debug":false
     },
-        {
+    {
       "index": 302,
       "uuid":"6c8fc008-07dd-4b04-93c6-cfc6ffc56e2e",
       "name":"سرور همراه اول 3",
@@ -65,9 +65,9 @@
           "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"wifi.safesafe.xyz\"},\"tlsSettings\":{\"serverName\":\"wifi.safesafe.xyz.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
-      "enable_sni":false,
-      "server_names":["my.mizbanonline.com","mizbanonline.com"],
-      "active":false,
+      "enable_sni":true,
+      "server_names":["my.modiranhost.com","modiranhost.com"],
+      "active":true,
       "debug":false
     },
     {

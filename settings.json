@@ -7,7 +7,7 @@
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "سرورهای همراه اول مجددا به روز شد",
+  "banner": "سرورهای همراه اول مجددا تغییر داده شد",
   "enable_device_ids":true,
   "user_agents":[
     "coc"

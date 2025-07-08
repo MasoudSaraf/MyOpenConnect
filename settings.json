@@ -7,7 +7,7 @@
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "سرورهای همراه اول مجددا تغییر داده شد",
+  "banner": "",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -104,6 +104,25 @@
         "xray_configs": [{
           "active": true,
           "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"193.233.133.165\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"tgju.org\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+        }]
+      },
+      "enable_sni":false,
+      "server_names":[""],
+      "active":true,
+      "debug":false
+    },
+    {
+      "index": 351,
+      "uuid":"421d3e1a-0f9b-4925-a353-4ac41d91cb21",
+      "name":"سرور ایرانسل 3",
+      "address":"localhost:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"178.159.94.66\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"tgju.org\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,

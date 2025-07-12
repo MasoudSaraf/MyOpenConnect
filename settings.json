@@ -73,6 +73,7 @@
     {
       "index": 340,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2835",
+      "sub_info":"این سرور برای بعضی افراد کیفیت بالایی داره و برای بعضیا خیر",
       "name":"سرور ایرانسل 1",
       "address":"localhost:4443",
       "enable_http_proxy":true,
@@ -93,9 +94,9 @@
       "debug":false
     },
     {
-      "index": 350,
+      "index": 351,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2836",
-      "name":"سرور ایرانسل 2",
+      "name":"سرور ایرانسل 3",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -112,9 +113,9 @@
       "debug":false
     },
     {
-      "index": 351,
+      "index": 350,
       "uuid":"421d3e1a-0f9b-4925-a353-4ac41d91cb21",
-      "name":"سرور ایرانسل 3",
+      "name":"سرور ایرانسل 2",
       "address":"localhost:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",

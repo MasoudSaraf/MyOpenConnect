@@ -132,7 +132,26 @@
       "debug":false
     },
     {
-      "index": 352,
+      "index": 355,
+      "uuid":"421d3e1a-0f9b-4925-a353-4ac41d91cb00",
+      "name":"سرور ایرانسل 4",
+      "address":"localhost:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"37.221.93.20\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"ubuntu.com\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+        }]
+      },
+      "enable_sni":false,
+      "server_names":[""],
+      "active":true,
+      "debug":false
+    },
+    {
+      "index": 510,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2838",
       "name":"سرور ایرانسل، رایتل و همراه اول (ipv6)",
@@ -152,7 +171,7 @@
       "debug":false
     },
     {
-      "index": 353,
+      "index": 520,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
       "name":"سرور‌ ایرانسل، رایتل و همراه اول (ipv6) 2",

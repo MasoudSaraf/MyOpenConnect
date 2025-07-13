@@ -14,6 +14,26 @@
   ],
   "servers":[
     {
+      "index": 299,
+      "uuid":"1c540f82-fb67-0000-9362-504e144b2835",
+      "info": "این سرور مستقیم شما رو به خارج وصل میکنه و سرعت بالاتری داره",
+      "name":"سرور همراه اول پر سرعت 🚀",
+      "address":"localhost:4443",
+      "enable_http_proxy":true,
+      "http_proxy":"127.0.0.1:2939",
+      "xray": {
+        "enable": true,
+        "xray_configs": [{
+          "active": true,
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"www.speedtest.net\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"mymtb.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"9-20\",\"interval\":\"9-32\"}}}]}"
+        }]
+      },
+      "enable_sni":false,
+      "server_names":[""],
+      "active":true,
+      "debug":false
+    },
+    {
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرور همراه اول 1",
@@ -73,7 +93,6 @@
     {
       "index": 340,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2835",
-      "sub_info":"این سرور برای بعضی افراد کیفیت بالایی داره و برای بعضیا خیر",
       "name":"سرور ایرانسل 1",
       "address":"localhost:4443",
       "enable_http_proxy":true,

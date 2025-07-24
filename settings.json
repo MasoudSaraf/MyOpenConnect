@@ -116,7 +116,7 @@
       "index": 310,
       "uuid":"421d3e1a-0f9b-4925-a353-4ac41d91cb21",
       "name":"سرور ایرانسل 2",
-      "address":"localhost:4443",
+      "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {

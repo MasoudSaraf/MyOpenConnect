@@ -1,7 +1,7 @@
 {
   "version_code":1600,
   "deprecated_version_code": 1539,
-  "config_version": "040505",
+  "config_version": "040505-15",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
   "force_update": false,
@@ -123,7 +123,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"138.124.54.12\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"tgju.org\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"178.159.94.66\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"tgju.org\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,
@@ -182,7 +182,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a0b:4140:4816::2]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"myservice\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"normal\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"photos.google.com.xp0.ir\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a0b:4140:5a71::2]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"myservice\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"normal\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"photos.google.com.xp0.ir\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -196,7 +196,7 @@
       "sub_info":"نیاز به فعالسازی ipv6 هست",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
       "name":"سرور‌ ایرانسل، رایتل و همراه اول (ipv6) 2",
-      "address":"[2a0b:4140:4816::2]",
+      "address":"[2a0b:4140:5a71::2]",
       "enable_http_proxy": false,
       "http_proxy": "",
       "enable_sni": true,

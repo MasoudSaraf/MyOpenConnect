@@ -7,7 +7,7 @@
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "سرورهای ipv6 در دسترس قرار گرفتن. پیشنهاد میکنیم حتما از اون سرورها استفاده کنین چون سرعت و پایداری بالایی دارن. برای استفاده از سرورهای ipv6 حتما باید تنظیمات ipv6 توی گوشیتون فعال بشه که آموزشش توی کانال هست و اگر راهنمایی خواستین به پشتیبانی پیام بدید.",
+  "banner": "",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -94,7 +94,7 @@
       "index": 300,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2835",
       "name":"سرور ایرانسل 1",
-      "address":"localhost:4443",
+      "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
@@ -135,7 +135,7 @@
       "index": 320,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2836",
       "name":"سرور ایرانسل 3",
-      "address":"localhost:4443",
+      "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
@@ -172,16 +172,17 @@
     {
       "index": 400,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
+      "sub_info":"نیاز به فعالسازی ipv6 هست",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2838",
       "name":"سرور ایرانسل، رایتل و همراه اول (ipv6)",
-      "address":"localhost:4443",
+      "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a0b:4140:5a71::2]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"myservice\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"normal\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"photos.google.com.xp0.ir\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"[2a0b:4140:4816::2]\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"grpcSettings\":{\"multiMode\":true,\"serviceName\":\"myservice\"},\"network\":\"grpc\",\"security\":\"tls\",\"sockopt\":{\"dialerProxy\":\"normal\"},\"tlsSettings\":{\"allowInsecure\":true,\"alpn\":[\"h2\"],\"fingerprint\":\"chrome\",\"serverName\":\"photos.google.com.xp0.ir\"}}},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"interval\":\"10-31\",\"length\":\"9-33\",\"packets\":\"tlshello\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -192,9 +193,10 @@
     {
       "index": 410,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
+      "sub_info":"نیاز به فعالسازی ipv6 هست",
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
       "name":"سرور‌ ایرانسل، رایتل و همراه اول (ipv6) 2",
-      "address":"[2a0b:4140:5a71::2]",
+      "address":"[2a0b:4140:4816::2]",
       "enable_http_proxy": false,
       "http_proxy": "",
       "enable_sni": true,
@@ -219,7 +221,7 @@
       "index": 110,
       "uuid": "1c540f82-fb67-4bf9-9362-504e144b2824",
       "name": "سرور تمام نت‌های خانگی",
-      "address": "localhost:4443",
+      "address": "redirect.ocserv:4443",
       "enable_http_proxy": true,
       "http_proxy": "127.0.0.1:2939",
       "xray": {

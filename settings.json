@@ -1,13 +1,13 @@
 {
   "version_code":1600,
   "deprecated_version_code": 1539,
-  "config_version": "040522-23",
+  "config_version": "040523",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "",
+  "banner": "دوستان عزیز آدرس‌های ویندوز و ios رو برای پایداری بیشتر تغییر دادیم. لطفا اگر کسی از دوستانتون از ios استفاده میکنه بهشون اطلاع بدید از آدرس‌های جدید استفاده کنن.",
   "enable_device_ids":true,
   "user_agents":[
     "coc"

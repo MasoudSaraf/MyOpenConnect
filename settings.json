@@ -1,12 +1,12 @@
 {
   "version_code":1600,
   "deprecated_version_code": 1539,
-  "config_version": "040621",
+  "config_version": "040817-0800",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
   "force_update": false,
   "max_wait":600000,
-  "message": "",
+  "message": "دوستان عزیز روی سرورهای همراه اول اختلال هست. لطفا تا رفع اختلال از سرور ipv6 برای اتصال استفاده کنین",
   "banner": "",
   "enable_device_ids":true,
   "user_agents":[

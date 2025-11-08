@@ -7,7 +7,7 @@
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "دوستان عزیز روی سرورهای همراه اول اختلال هست. لطفا تا رفع اختلال از سرور ipv6 برای اتصال استفاده کنین",
+  "banner": "سرورهای همراه اول و اینترنت‌های خانگی آپدیت شدن. لطفا تا جایی که میتونین از سرورهای ipv6 استفاده کنین. فعلا شرایط پایداری سرورها رو نمیدونیم و احتمال میدیم که مجددا روی روش‌های جدیدی که قرار دادیم هم اختلال ایجاد کنن",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -128,7 +128,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -147,7 +147,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

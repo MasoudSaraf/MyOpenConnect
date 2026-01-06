@@ -1,7 +1,7 @@
 {
   "version_code":1600,
   "deprecated_version_code": 1539,
-  "config_version": "041015-2300",
+  "config_version": "041016-1800",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
   "force_update": false,
@@ -25,7 +25,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"www.speedtest.net\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"mymc.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"1-1\",\"length\":\"1-2\",\"interval\":\"1-1\"}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"ns.cloudflare.com\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"mymc.safesafe.xyz\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"1-1\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         }]
       },
       "enable_sni":false,

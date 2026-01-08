@@ -1,13 +1,13 @@
 {
   "version_code":1600,
   "deprecated_version_code": 1539,
-  "config_version": "041016-1800",
+  "config_version": "041018-1600",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
   "force_update": false,
   "max_wait":600000,
   "message": "",
-  "banner": "دوستان عزیز در شرایط حاضر لطفا از اینترنت موبایل استفاده کنین و به سرورهای ipv6 متصل بشین. دقت کنین باید اول تنظیمات ipv6 رو روی گوشیتون فعال کنین. توی کانال نحوه روشن کردن ipv6 هست",
+  "banner": "دوستان عزیز تا ساعت ۶ سرورهای پشتیبان رو قرار میدیم. کل دسترسی ipv6 رو هم قطع کردن",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -34,9 +34,9 @@
       "debug":false
     },
     {
-      "index": 210,
+      "index": 700,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
-      "name":"سرور همراه اول 1",
+      "name":"سرور پشتیبان 1",
       "address":"185.88.152.159",
       "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
@@ -53,10 +53,10 @@
       "debug": false
     },
     {
-      "index": 220,
+      "index": 701,
       "uuid":"bd8f4981-06b6-4e63-ad1e-405a7f3e5d8a",
-      "name":"سرور همراه اول 2",
-      "address":"185.88.152.207",
+      "name":"سرور پشتیبان 2",
+      "address":"62.60.161.99",
       "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
@@ -67,7 +67,7 @@
         }]
       },
       "enable_sni":true,
-      "server_names":["my.modiranhost.com","modiranhost.com"],
+      "server_names":["my.mizbanonline.com","mizbanonline.com"],
       "active": false,
       "debug":false
     },
@@ -256,14 +256,14 @@
       "debug":false
     },
     {
-      "index": 700,
+      "index": 702,
       "uuid":"3f2b4455-b022-4a2d-8c36-774d2b80556d",
-      "name":"سرور پشتیبان",
-      "address":"185.88.152.159",
+      "name":"سرور پشتیبان 3",
+      "address":"185.88.152.207",
       "enable_http_proxy":false,
       "http_proxy":"1.1.1.1",
-      "enable_sni":false,
-      "server_names":[""],
+      "enable_sni":true,
+      "server_names":["my.modiranhost.com","modiranhost.com"],
       "enable_device_ids":true,
       "device_ids":["d9110d56ae595906","4a0c39d4aad57e10"],
       "active":false,

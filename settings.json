@@ -187,7 +187,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -201,7 +201,7 @@
       "http_proxy": "",
       "enable_sni": true,
       "server_names":["docs.google.com.xp1.ir", "drive.google.com.xp1.ir"],
-      "active": true,
+      "active": false,
       "debug": false
     },
     {

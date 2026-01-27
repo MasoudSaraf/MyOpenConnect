@@ -1,13 +1,13 @@
 {
   "version_code":1600,
   "deprecated_version_code": 1539,
-  "config_version": "041106-1400",
+  "config_version": "041107-1700",
   "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
   "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
   "force_update": false,
-  "max_wait":600000,
+  "max_wait":300000,
   "message": "",
-  "banner": "دوستان عزیز سرورهای همراه اول و نت خانگی رو راه انداختیم و میتونین وصل بشین. سرورهای ios هم وصل هستن. مجددا سرورها آپدیت شدن",
+  "banner": "سرورها آپدیت شدن. همراه اول و ایرانسل هم متصل هستن. سرورهای ios هم وصل هستن",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -17,7 +17,7 @@
       "index": 200,
       "uuid":"1c540f82-fb67-0000-9362-504e144b2835",
       "info": "این سرور مستقیم شما رو به خارج وصل میکنه و سرعت بالاتری داره",
-      "name":"سرور همراه اول پر سرعت 🚀",
+      "name":"سرور همراه 1",
       "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -49,7 +49,7 @@
       },
       "enable_sni": true,
       "server_names": ["my.modiranhost.com","modiranhost.com"],
-      "active": false,
+      "active": true,
       "debug": false
     },
     {
@@ -68,7 +68,7 @@
       },
       "enable_sni":true,
       "server_names":["my.mizbanonline.com","mizbanonline.com"],
-      "active": false,
+      "active": true,
       "debug":false
     },
     {
@@ -266,7 +266,7 @@
       "server_names":["my.modiranhost.com","modiranhost.com"],
       "enable_device_ids":false,
       "device_ids":["d9110d56ae595906","4a0c39d4aad57e10"],
-      "active":false,
+      "active":true,
       "debug":false
     }],
   "local_ips": [

@@ -1,9 +1,9 @@
 {
-  "version_code":1600,
+  "version_code":1630,
   "deprecated_version_code": 1539,
   "config_version": "041201-0000",
-  "download_link":"https://safe-net.ir/dl/OpenConnect_latest.apk",
-  "update_message": "دوستان ورژن 1.60 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین.",
+  "download_link":"https://dl.safe-net.ir/android",
+  "update_message": "دوستان ورژن 1.63 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. فردا عصر تمام ورژن‌های قبل از 1.63 غیر فعال میشن.",
   "force_update": false,
   "max_wait":300000,
   "message": "",

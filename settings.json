@@ -17,7 +17,7 @@
       "index": 200,
       "uuid":"1c540f82-fb67-0000-9362-504e144b2835",
       "info": "",
-      "name":"سرور همراه 1",
+      "name":"سرور همراه اول 1",
       "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",

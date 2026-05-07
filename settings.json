@@ -261,7 +261,7 @@
       "index": 702,
       "uuid":"3f2b4455-b022-4a2d-8c36-774d2b80556d",
       "name":"سرور پشتیبان 3",
-      "address":"185.88.152.207",
+      "address":"62.60.161.99:5555",
       "enable_http_proxy":false,
       "http_proxy":"1.1.1.1",
       "enable_sni":true,

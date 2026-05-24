@@ -1,13 +1,13 @@
 {
   "version_code": 1630,
   "deprecated_version_code": 1629,
-  "config_version": "050217-1700",
+  "config_version": "050303-1600",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.63 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. فردا عصر تمام ورژن‌های قبل از 1.63 غیر فعال میشن.",
   "force_update": false,
   "max_wait":300000,
   "message": "",
-  "banner": "⚠️ در حال حاضر سرور ایرانسل در دسترس هست و یک سرور همراه اول هم برای دوستانی که از ورژن 1.63 استفاده میکنن اضافه شد. لطفا به این سرورها متصل شین و تا جای ممکن کمتر از سرورهای پشتیبان استفاده کنین",
+  "banner": "⚠️ دوستان عزیز به مدت ۲ ساعت احتمال قطعی داریم. در حال آپدیت سرویس ها هستیم",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -30,7 +30,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -49,7 +49,7 @@
       },
       "enable_sni": true,
       "server_names": ["my.modiranhost.com","modiranhost.com"],
-      "active": true,
+      "active": false,
       "debug": false
     },
     {
@@ -68,7 +68,7 @@
       },
       "enable_sni":true,
       "server_names":["my.mizbanonline.com","mizbanonline.com"],
-      "active": true,
+      "active": false,
       "debug":false
     },
     {
@@ -89,7 +89,7 @@
       },
       "enable_sni":true,
       "server_names":["panel.varzesh3.com","media.varzesh3.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -111,7 +111,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -235,7 +235,7 @@
       },
       "enable_sni": false,
       "server_names": [""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -260,7 +260,7 @@
     {
       "index": 702,
       "uuid":"3f2b4455-b022-4a2d-8c36-774d2b80556d",
-      "name":"سرور پشتیبان 3",
+      "name":"سرور برای تمام اوپراتورها",
       "address":"62.60.161.99:5555",
       "enable_http_proxy":false,
       "http_proxy":"1.1.1.1",

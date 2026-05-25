@@ -270,6 +270,20 @@
       "device_ids":["d9110d56ae595906","4a0c39d4aad57e10"],
       "active":true,
       "debug":false
+    },
+    {
+      "index": 703,
+      "uuid":"3f2b4455-b022-4a2d-8c36-774a2b80556d",
+      "name":"سرور پشتیبان برای همراه اول",
+      "address":"185.18.215.14",
+      "enable_http_proxy":false,
+      "http_proxy":"1.1.1.1",
+      "enable_sni":true,
+      "server_names":["my.modiranhost.com","modiranhost.com"],
+      "enable_device_ids":false,
+      "device_ids":["d9110d56ae595906","4a0c39d4aad57e10"],
+      "active":true,
+      "debug":false
     }],
   "local_ips": [
     "2.144.0.0/14","sep.shaparak.ir","ecd.shaparak.ir","asan.shaparak.ir","pna.shaparak.ir","bpm.shaparak.ir","pep.shaparak.ir","pec.shaparak.ir","sadad.shaparak.ir","fcp.shaparak.ir","ikc.shaparak.ir"

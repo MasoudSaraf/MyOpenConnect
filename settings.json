@@ -1,13 +1,13 @@
 {
   "version_code": 1630,
   "deprecated_version_code": 1629,
-  "config_version": "050303-1700",
+  "config_version": "050306-1000",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.63 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط همین دکمه‌ی دانلود، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. فردا عصر تمام ورژن‌های قبل از 1.63 غیر فعال میشن.",
   "force_update": false,
   "max_wait":300000,
   "message": "",
-  "banner": "دوستان روی همراه اول و زیر مجموعه‌هاش از جمله شاتل و اینترنت‌های داخلی یک سرور فیلتر شده. تا ظهر حلش میکنیم.",
+  "banner": "دوستان عزیز اکانت‌های قدیمی و ربات در حال حاضر غیر فعال هستن. شرایط منتسب شد هم اوانت‌ها رو فعال میکنیم و هم ربات رو.",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -260,7 +260,8 @@
     {
       "index": 702,
       "uuid":"3f2b4455-b022-4a2d-8c36-774d2b80556d",
-      "name":"سرور برای تمام اوپراتورها",
+      "info": "این سرور فقط برای دوستانی هست که اکانت گیگی از ما خریدن",
+      "name":"سرور اکانت‌های گیگی",
       "address":"62.60.161.99:5555",
       "enable_http_proxy":false,
       "http_proxy":"1.1.1.1",
@@ -282,7 +283,7 @@
       "server_names":["my.modiranhost.com","modiranhost.com"],
       "enable_device_ids":false,
       "device_ids":["d9110d56ae595906","4a0c39d4aad57e10"],
-      "active":true,
+      "active":false,
       "debug":false
     }],
   "local_ips": [

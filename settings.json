@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050312-1600",
+  "config_version": "050312-1800",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
@@ -75,21 +75,21 @@
       "index": 202,
       "uuid":"6c8fc008-07dd-4b04-93c6-cfc6ffc56e2e",
       "name":"سرور همراه اول 2",
-      "address":"84.32.41.10",
+      "address":"176.124.204.151",
       "pfs": false,
       "min_version": 1630,
-      "enable_http_proxy":false,
+      "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
-        "enable": false,
+        "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"cdnjs.com\",\"port\":2083,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"ws\",\"security\":\"tls\",\"wsSettings\":{\"path\":\"/mypath?ed=2560\",\"host\":\"wifi.krypment.xyz\"},\"tlsSettings\":{\"serverName\":\"wifi.krypment.xyz.\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.121.255.91\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"cf364285-7b52-4464-bd83-02f48d9955f0\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"xyfJMrgQzx-vDAdljxu40NIxmsW2j6OJEvC18VUB6Do\",\"serverName\":\"ea.com\",\"shortId\":\"b9877a9b29e304fa\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         }]
       },
-      "enable_sni":true,
+      "enable_sni":false,
       "server_names":["panel.varzesh3.com","media.varzesh3.com"],
-      "active":false,
+      "active":true,
       "debug":false
     },
     {

@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050312-1300",
+  "config_version": "050312-1600",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
@@ -118,6 +118,7 @@
       "index": 310,
       "uuid":"421d3e1a-0f9b-4925-a353-4ac41d91cb21",
       "name":"سرور ایرانسل 2",
+      "min_version": 1640,
       "address":"redirect.ocserv:4443",
       "enable_http_proxy":true,
       "http_proxy":"127.0.0.1:2939",
@@ -125,7 +126,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"77.110.100.126\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"tgju.org\",\"fingerprint\":\"chrome\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"normal\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
+          "config": "{\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"104.18.32.47\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"xhttpSettings\":{\"host\":\"mymtb.otagh.xyz\",\"path\":\"/mypath\",\"mode\":\"auto\",\"xPaddingObfsMode\":true,\"xPaddingBytes\":\"100-1000\",\"xPaddingMethod\":\"tokenish\",\"xPaddingHeader\":\"X-Cache\",\"xPaddingKey\":\"x_edge\"},\"tlsSettings\":{\"serverName\":\"mymtb.otagh.xyz\",\"pinnedPeerCertSha256\":\"3ff72e9d164d2c5fd3abe0aad9ab081bbeb546e799cbe0ecf8a55a16a4ad20f2\",\"fingerprint\":\"chrome\",\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"12-33\",\"interval\":\"11-29\"}},\"streamSettings\":{\"network\":\"tcp\",\"sockopt\":{\"TcpNoDelay\":true}}}]}"
         }]
       },
       "enable_sni":false,

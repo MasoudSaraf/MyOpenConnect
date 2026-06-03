@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050312-1800",
+  "config_version": "050313-0800",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,

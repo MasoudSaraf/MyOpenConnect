@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050313-2000",
+  "config_version": "050314-2030",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
@@ -25,7 +25,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"176.124.204.151\",\"port\":2053,\"users\":[{\"encryption\":\"none\",\"id\":\"ocserv\"}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"3ORTYy5ltaVa13uOAWNHWpS9AIgz_qdZY1JV2hmqkSQ\",\"serverName\":\"ea.com\",\"shortId\":\"4266eb7ad09ecb3b\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"stream-up\",\"path\":\"/xhttp\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
+          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"176.124.204.151\",\"port\":2083,\"users\":[{\"encryption\":\"none\",\"id\":\"ocserv\"}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"3ORTYy5ltaVa13uOAWNHWpS9AIgz_qdZY1JV2hmqkSQ\",\"serverName\":\"ea.com\",\"shortId\":\"4266eb7ad09ecb3b\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"stream-up\",\"path\":\"/xhttp\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         }]
       },
       "enable_sni":false,

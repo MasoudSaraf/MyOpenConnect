@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050329-1800",
+  "config_version": "050329-1830",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
@@ -37,7 +37,7 @@
       "index": 700,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرور پشتیبان 1",
-      "address":"185.88.152.159",
+      "address":"62.60.161.99",
       "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
@@ -48,7 +48,7 @@
         }]
       },
       "enable_sni": true,
-      "server_names": ["my.modiranhost.com","modiranhost.com"],
+      "server_names": ["client.mizbanonline.com"],
       "active": false,
       "debug": false
     },
@@ -89,7 +89,7 @@
       },
       "enable_sni":false,
       "server_names":["panel.varzesh3.com","media.varzesh3.com"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -111,7 +111,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -256,7 +256,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

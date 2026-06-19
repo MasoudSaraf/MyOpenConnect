@@ -30,7 +30,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {
@@ -49,7 +49,7 @@
       },
       "enable_sni": true,
       "server_names": ["client.mizbanonline.com"],
-      "active": false,
+      "active": true,
       "debug": false
     },
     {
@@ -131,7 +131,7 @@
       },
       "enable_sni":false,
       "server_names":[""],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050329-0900",
+  "config_version": "050329-1800",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
@@ -84,7 +84,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.125.187.182\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"cf364285-7b52-4464-bd83-02f48d9955f0\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"xyfJMrgQzx-vDAdljxu40NIxmsW2j6OJEvC18VUB6Do\",\"serverName\":\"ea.com\",\"shortId\":\"b9877a9b29e304fa\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
+          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.125.187.182\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"aaa1d1a4-9641-492d-8dac-82cee7ce7036\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"ea_FN3c_9hXIQpJxcLLaqrmoy33HrD9NjYDYEwy33QM\",\"serverName\":\"ea.com\",\"shortId\":\"41270ea22f1146f3\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -106,7 +106,7 @@
           "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"104.18.32.47\",\"port\":2053,\"users\":[{\"id\":\"ocserv\",\"encryption\":\"none\"}]}]},\"streamSettings\":{\"network\":\"grpc\",\"security\":\"tls\",\"grpcSettings\":{\"serviceName\":\"myservice\",\"multiMode\":true},\"tlsSettings\":{\"serverName\":\"mymtb.vivatshop.store\",\"fingerprint\":\"firefox\",\"allowInsecure\":true,\"alpn\":[\"h2\"]},\"sockopt\":{\"dialerProxy\":\"fragment\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         },{
           "active": true,
-          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.125.187.182\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"cf364285-7b52-4464-bd83-02f48d9955f0\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"xyfJMrgQzx-vDAdljxu40NIxmsW2j6OJEvC18VUB6Do\",\"serverName\":\"ea.com\",\"shortId\":\"b9877a9b29e304fa\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
+          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.125.187.182\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"aaa1d1a4-9641-492d-8dac-82cee7ce7036\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"ea_FN3c_9hXIQpJxcLLaqrmoy33HrD9NjYDYEwy33QM\",\"serverName\":\"ea.com\",\"shortId\":\"41270ea22f1146f3\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         }]
       },
       "enable_sni":false,
@@ -251,7 +251,7 @@
         "enable": true,
         "xray_configs": [{
           "active": true,
-          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.125.187.182\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"cf364285-7b52-4464-bd83-02f48d9955f0\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"xyfJMrgQzx-vDAdljxu40NIxmsW2j6OJEvC18VUB6Do\",\"serverName\":\"ea.com\",\"shortId\":\"b9877a9b29e304fa\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
+          "config": "{\"delay\":0,\"inbounds\":[{\"listen\":\"127.0.0.1\",\"port\":2939,\"protocol\":\"http\"}],\"outbounds\":[{\"protocol\":\"vless\",\"settings\":{\"vnext\":[{\"address\":\"3.125.187.182\",\"port\":12705,\"users\":[{\"encryption\":\"none\",\"id\":\"aaa1d1a4-9641-492d-8dac-82cee7ce7036\",\"level\":8}]}]},\"streamSettings\":{\"network\":\"xhttp\",\"security\":\"reality\",\"realitySettings\":{\"allowInsecure\":true,\"fingerprint\":\"random\",\"publicKey\":\"ea_FN3c_9hXIQpJxcLLaqrmoy33HrD9NjYDYEwy33QM\",\"serverName\":\"ea.com\",\"shortId\":\"41270ea22f1146f3\",\"show\":false,\"spiderX\":\"/\"},\"xhttpSettings\":{\"host\":\"ie-2srv.dnschecker.cc\",\"mode\":\"auto\",\"path\":\"/download\"}}},{\"tag\":\"normal\",\"protocol\":\"freedom\"},{\"tag\":\"fragment\",\"protocol\":\"freedom\",\"settings\":{\"fragment\":{\"packets\":\"tlshello\",\"length\":\"1-2\",\"interval\":\"1-2\"}}}]}"
         }]
       },
       "enable_sni":false,

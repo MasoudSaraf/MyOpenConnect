@@ -48,7 +48,7 @@
         }]
       },
       "enable_sni": true,
-      "server_names": ["client.mizbanonline.com"],
+      "server_names": ["media.varzesh3.com"],
       "active": true,
       "debug": false
     },

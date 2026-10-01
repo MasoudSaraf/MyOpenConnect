@@ -1,13 +1,13 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050329-1830",
+  "config_version": "050709-2030",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
   "max_wait":300000,
   "message": "",
-  "banner": "",
+  "banner": "سرور ipv6 رو که سرعت بسیار بالاتری داره رو مجددا فعال کردیم. یادتون باشه برای اتصال به این سرور باید ipv6 توی تنظیمات اینترنت موبایل فعال شده باشه.",
   "enable_device_ids":true,
   "user_agents":[
     "coc"
@@ -36,7 +36,7 @@
     {
       "index": 700,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
-      "name":"سرور پشتیبان 1",
+      "name":"سرور برای همه اوپراتورها",
       "address":"62.60.161.99",
       "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
@@ -194,17 +194,17 @@
       "debug":false
     },
     {
-      "index": 410,
+      "index": 710,
       "info": "نحوه فعالسازی ipv6 رو میتونین سرچ کنین یا به پشتیبانی پیام بدید که راهنماییتون کنیم. به صورت خلاصه در تنظیمات گوشی کلمه apn رو سرچ کنین و apn  سیمکارتی که باهاش به اینترنت وصل میشین رو ویرایش کنین. در صفحه ویرایش گزینه apn protocol رو پیدا کنین و مقدارشو به ipv4/ipv6 تغییر بدید و تنظیمات رو ذخیره کنین.",
       "sub_info":"نیاز به فعالسازی ipv6 هست",
-      "uuid":"1c540f82-fb67-4bf9-9362-504e144b2827",
-      "name":"سرور‌ ایرانسل، رایتل و همراه اول (ipv6) 2",
-      "address":"[2a01:e5c0:5948::2]",
+      "uuid":"f03dfe8b-6a33-4e57-a0a6-37ff4cf74ed6",
+      "name":"سرور‌ ایرانسل، رایتل و همراه اول (ipv6)",
+      "address":"[2a0b:4140:b024::2]",
       "enable_http_proxy": false,
       "http_proxy": "",
       "enable_sni": true,
       "server_names":["docs.google.com.xp1.ir", "drive.google.com.xp1.ir"],
-      "active": false,
+      "active": true,
       "debug": false
     },
     {
@@ -271,7 +271,7 @@
       "server_names":["my.modiranhost.com","modiranhost.com"],
       "enable_device_ids":false,
       "device_ids":["d9110d56ae595906","4a0c39d4aad57e10"],
-      "active":true,
+      "active":false,
       "debug":false
     },
     {

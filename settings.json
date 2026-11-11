@@ -1,7 +1,7 @@
 {
   "version_code": 1640,
   "deprecated_version_code": 1629,
-  "config_version": "050820-1430",
+  "config_version": "050820-1530",
   "download_link":"https://dl.safe-net.ir/android",
   "update_message": "دوستان ورژن 1.64 منتشر شده. میتونین از ربات تلگرام، کانال یا توسط دکمه‌ی دانلود زیر، دریافت و نصب کنین. لطفا حتما و فورا آپدیت کنین. طی چند روز آینده تمام ورژن‌های قبل از 1.64 غیر فعال خواهند شد.",
   "force_update": false,
@@ -37,7 +37,7 @@
       "index": 700,
       "uuid":"1c540f82-fb67-4bf9-9362-504e144b2826",
       "name":"سرور برای همه اوپراتورها",
-      "address":"62.60.161.99",
+      "address":"194.145.119.155",
       "enable_http_proxy":false,
       "http_proxy":"127.0.0.1:2939",
       "xray": {
